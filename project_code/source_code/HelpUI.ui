@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Help</class>
+ <widget class="QWidget" name="Help">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>338</width>
+    <height>203</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Curve Fitting Tool Help</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>icon.jpg</normaloff>icon.jpg</iconset>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>271</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QCommandLinkButton" name="cmd_btn1">
+      <property name="text">
+       <string>了解什么是拉格朗日插值</string>
+      </property>
+     </widget>
+    </item>
+    <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QCommandLinkButton" name="cmd_btn2">
+      <property name="text">
+       <string>了解什么是三次样条插值</string>
+      </property>
+     </widget>
+    </item>
+    <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QCommandLinkButton" name="cmd_btn3">
+      <property name="text">
+       <string>了解什么是最小二乘拟合</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
